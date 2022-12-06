@@ -5,8 +5,8 @@ from dash import dcc, html
 from dash.dependencies import Input, Output, State
 
 # file selectioni
-import tkinter
-from tkinter import filedialog
+#import tkinter
+#from tkinter import filedialog
 
 # time series plot
 from plotly import tools
@@ -74,7 +74,7 @@ et_visualizer.update_layout(5, 0)
 # Callbacks
 ####################
 
-@app.callback(
+'''@app.callback(
     Output('container-button-basic', 'children'),
     Input('submit-val', 'n_clicks'),
     # State('input-on-submit', 'value')
@@ -88,7 +88,7 @@ def _select_folder(n_clicks):
         print('selected directory: ', directory)
         root.destroy()
         eeg_visualizer.change_dir(directory)
-        return directory
+        return directory'''
 
 
 ########################
