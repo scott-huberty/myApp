@@ -12,8 +12,8 @@ import numpy as np
 
 # loading raw object
 import mne
-from pylossless.dash.mne_visualizer import MNEVisualizer
-from pylossless.dash.css_defaults import CSS, STYLE
+from mne_visualizer import MNEVisualizer
+from css_defaults import CSS, STYLE
 
 ####################
 #  Begin Dash App
