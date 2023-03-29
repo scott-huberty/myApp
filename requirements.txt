@@ -1,8 +1,4 @@
-dash==2.7.0
-dash_extensions==0.1.8
-git+https://github.com/scott-huberty/mne-python@mne-eyetrack_revisions#egg=mne
-numpy==1.23.5
-plotly==5.11.0
+git+https://github.com/mne-tools/mne-python@main#egg=mne
+git+https://github.com/lina-usc/pylossless@main#egg=pylossless
+git+https://github.com/lina-usc/pylossless@main#egg=pylossless[dash]
 gunicorn
-pandas
-dash-tools
